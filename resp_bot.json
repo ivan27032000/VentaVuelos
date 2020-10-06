@@ -1,0 +1,8 @@
+{
+    "saludo" : "Hola ",
+    "ayuda" : "Soy un bot del aeropuerto José Joaquín de Olmedo para la venta de vuelos.\nPara reservar un vuelo use el comando /reservar",
+    "reservar" : "Escriba su cedula para continuar",
+    "info_vuelo" : ["Su vuelo desde el aeropuerto José Joaquín de Olmedo a ","tiene un valor de: ", "Desea aceptar el vuelo? /aceptar", "Desea cancelar la reservación? /cancelar", "Tiempo estimado: "],
+    "aceptar" : "Vuelo registrado.",
+    "cancelar" : "Registro cancelado."
+}
