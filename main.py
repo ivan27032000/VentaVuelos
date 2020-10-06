@@ -103,6 +103,8 @@ def aceptar(message):
     bot.send_message(sesion.chat_id, resp_bot["aceptar"])
     bot.reply_to(message, resp_bot["ayuda"])
 
+    sesiones.remove(sesion)
+
 @bot.message_handler(commands = ["cancelar"] , func = lambda msg: buscar_sesion(msg.chat.id) != None)
 def cancelar(message):
     sesion = buscar_sesion(message.chat.id)
